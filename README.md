@@ -14,6 +14,6 @@ entry point: (index.js) booksapp.js
 
 Add type module to the package.json
 
-Add "type": "module" in package.json file, because we will use the es6 import in this project. Add this line after "main": "booksapp.js"
+Add "type": "module", in package.json file, because we will use the es6 import in this project. Add this line after "main": "booksapp.js"
 
 

@@ -30,3 +30,14 @@ describe books ;
 | updated_at | timestamp    | NO   |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
 +------------+--------------+------+-----+-------------------+-------------------+
 6 rows in set (0.00 sec)
+
+
+Create a user for this table
+
+CREATE USER 'pingpong'@'localhost' IDENTIFIED WITH mysql_native_password BY 'QnDcsFvSNB2s8K';
+
+GRANT ALL PRIVILEGES ON dev.* TO 'pingpong'@'localhost
+
+FLUSH PRIVILEGES;
+
+mysql -upingpong -p
