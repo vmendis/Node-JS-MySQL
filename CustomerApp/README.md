@@ -34,7 +34,9 @@ describe customer;
 
 
 npm init
+
 add "type": "module",  to package.json 
+
 npm install express mysql body-parser
 npm install morgan
 npm install mysql2 ??
