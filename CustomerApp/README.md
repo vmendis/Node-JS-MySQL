@@ -36,7 +36,7 @@ For testing purposes I am using GitHub CodeSpace and installed MySQL in the Code
 
 ## NPM related steps.
 
-    **Change directory to where CustmerApp code sits.**
+    Change directory to where CustmerApp code sits.
     
     cd CustomerApp
     npm init
