@@ -4,12 +4,10 @@ Example from: https://github.com/fazt/crud-nodejs-mysql/tree/master
 
 For testing purposes I am using GitHub CodeSpace and installed MySQL in the CodeSpace
 
-
     sudo apt update
     sudo apt install mysql-server
     sudo service mysql start
     service mysql status 
-              // Occasionaly this might stay not started. But MySQL is running
 
 **NOTE: Each time the codespace is re-started mysql must be started**
  
@@ -38,14 +36,15 @@ For testing purposes I am using GitHub CodeSpace and installed MySQL in the Code
 
 ## NPM related steps.
 
+    Change directory to where CustmerApp code sits.
+    
+    cd CustomerApp
     npm init
     add "type": "module", to package.json
     npm install express mysql body-parser
     npm install morgan
-    npm install mysql2 ??
     npm install ejs
-    node <index.js>
+    node index.js
 
 
 > Written with [StackEdit](https://stackedit.io/).
-               
